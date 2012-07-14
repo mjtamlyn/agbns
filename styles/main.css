@@ -245,25 +245,34 @@ p.full-results {
 }
 
 /* line 170, ../sass/main.sass */
+.structure.archers {
+  padding-right: 0;
+}
+
+/* line 173, ../sass/main.sass */
 .archer {
   display: inline-block;
   vertical-align: top;
-  width: 240px;
+  width: 244px;
   padding-right: 4px;
   margin-right: 4px;
   border-right: 1px solid #cccccc;
 }
-/* line 178, ../sass/main.sass */
+/* line 180, ../sass/main.sass */
+.archer:nth-of-type(4) {
+  border-right: 0;
+}
+/* line 183, ../sass/main.sass */
 .archer img {
   width: 224px;
   margin: 0;
 }
 
-/* line 183, ../sass/main.sass */
+/* line 188, ../sass/main.sass */
 footer {
   padding-bottom: 10px;
 }
-/* line 186, ../sass/main.sass */
+/* line 191, ../sass/main.sass */
 footer .credits {
   text-align: center;
   font-size: 12px;
