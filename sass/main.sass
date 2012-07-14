@@ -1,0 +1,188 @@
+@import "compass"
+
+// colors
+$blue: #0092CF
+$hlblue: #CCEEFF
+$red: #C41230
+
+// Structure
+body
+  margin: 0
+  background-color: $blue
+
+#wrap
+  width: 1040px
+  margin: 0 auto
+  background-color: white
+  border-left: 1px solid $hlblue
+  border-right: 1px solid $hlblue
+
+.structure
+  padding: 0 15px
+
+// Typography
+body
+  font-family: 'Open Sans', Arial, sans-serif
+
+h1, h2, h3, h4, h5, h6
+  color: $red
+  font-weight: 800
+  margin: 0
+
+h1
+  font-size: 50px
+  span
+    font-weight: 300
+h2
+  font-size: 36px
+h3
+  font-size: 26px
+  small
+    font-size: 18px
+    float: right
+    margin-top: 8px
+
+h4
+  font-size: 20px
+
+p
+  font-size: 14px
+  margin: 10px 0
+
+dl
+  font-size: 14px
+  dt
+    vertical-align: top
+    display: inline-block
+    width: 100px
+    font-weight: 700
+  dd
+    vertical-align: top
+    display: inline-block
+    width: 135px
+    margin: 0 0 5px
+
+// nav
+@mixin btn
+  @include background-image(linear-gradient($hlblue, $blue 70%, $blue))
+  @include box-shadow($blue 0 0 5px inset, #ccf 0 0 2px)
+  background-color: $blue
+  color: white
+  cursor: pointer
+  border-radius: 5px
+  padding: 3px 10px
+  margin: 0px 3px
+  text-decoration: none
+  &:hover
+    $darkerblue: darken($blue, 10%)
+    @include background-image(linear-gradient($hlblue, $darkerblue 70%, $darkerblue))
+    background-color: $darkerblue
+
+.btn
+  @include btn
+
+nav
+  margin: 5px 0
+  padding: 10px 0
+  background-color: #f5f5f5
+  text-align: center
+  a
+    @include btn
+
+a.top
+  position: relative
+  padding-left: 25px
+  &:before
+    content: ""
+    position: absolute
+    left: 8px
+    top: 10px
+    width: 0px
+    height: 0px
+    border-left: 5px solid transparent
+    border-right: 5px solid transparent
+    border-bottom: 5px solid white
+
+img
+  padding: 4px
+  margin: 4px
+  border-radius: 4px
+  background-color: #eeeeee
+
+// Header section
+#site-header
+  margin: 0
+  height: 252px
+  overflow: hidden
+  position: relative
+
+  h1
+    margin: 55px 45px
+
+  img
+    position: absolute
+    right: 20px
+    top: 10px
+    height: 230px
+    z-index: 2
+    border-radius: 0
+
+  nav
+    position: absolute
+    bottom: 36px
+    width: 100%
+    padding-left: 15px
+    text-align: left
+
+// Main block
+.leg
+  img
+    float: right
+    width: 400px
+
+// Results table
+table.results
+  width: 100%
+  text-align: center
+  border-collapse: collapse
+  border-bottom: 1px solid #ccc
+  padding-bottom: 2px
+
+  caption
+    color: $red
+    font-weight: 800
+    font-size: 18px
+    border-bottom: 1px solid #ccc
+    margin: 5px 0
+    padding-bottom: 2px
+
+  tr:nth-child(even)
+    background-color: #f5f5f5
+
+  tr:last-child td
+    padding-bottom: 4px
+
+p.full-results
+  float: right
+
+// archer blocks
+
+.archer
+  display: inline-block
+  vertical-align: top
+  width: 240px
+  padding-right: 4px
+  margin-right: 4px
+  border-right: 1px solid #ccc
+
+  img
+    width: 224px
+    margin: 0
+
+// footer
+footer
+  padding-bottom: 10px
+
+  .credits
+    text-align: center
+    font-size: 12px
