@@ -274,10 +274,16 @@ p.full-results {
 }
 
 /* line 192, ../sass/main.sass */
+.sponsor {
+  max-width: 150px;
+  max-height: 100px;
+}
+
+/* line 197, ../sass/main.sass */
 footer {
   padding-bottom: 10px;
 }
-/* line 195, ../sass/main.sass */
+/* line 200, ../sass/main.sass */
 footer .credits {
   text-align: center;
   font-size: 12px;
