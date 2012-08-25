@@ -1,10 +1,10 @@
-/* line 9, ../sass/main.sass */
+/* line 10, ../sass/main.sass */
 body {
   margin: 0;
   background-color: #0092cf;
 }
 
-/* line 13, ../sass/main.sass */
+/* line 14, ../sass/main.sass */
 #wrap {
   width: 1040px;
   margin: 0 auto;
@@ -13,64 +13,64 @@ body {
   border-right: 1px solid #cceeff;
 }
 
-/* line 20, ../sass/main.sass */
+/* line 21, ../sass/main.sass */
 .structure {
   padding: 0 15px;
 }
 
-/* line 24, ../sass/main.sass */
+/* line 25, ../sass/main.sass */
 body {
   font-family: "Open Sans", Arial, sans-serif;
 }
 
-/* line 27, ../sass/main.sass */
+/* line 28, ../sass/main.sass */
 h1, h2, h3, h4, h5, h6 {
   color: #c41230;
   font-weight: 800;
   margin: 0;
 }
 
-/* line 32, ../sass/main.sass */
+/* line 33, ../sass/main.sass */
 h1 {
   font-size: 50px;
 }
-/* line 34, ../sass/main.sass */
+/* line 35, ../sass/main.sass */
 h1 span {
   font-weight: 300;
 }
 
-/* line 36, ../sass/main.sass */
+/* line 37, ../sass/main.sass */
 h2 {
   font-size: 36px;
 }
 
-/* line 38, ../sass/main.sass */
+/* line 39, ../sass/main.sass */
 h3 {
   font-size: 26px;
 }
-/* line 40, ../sass/main.sass */
+/* line 41, ../sass/main.sass */
 h3 small {
   font-size: 18px;
   float: right;
   margin-top: 8px;
 }
 
-/* line 45, ../sass/main.sass */
+/* line 46, ../sass/main.sass */
 h4 {
   font-size: 20px;
 }
 
-/* line 48, ../sass/main.sass */
+/* line 49, ../sass/main.sass */
 p {
   font-size: 14px;
   margin: 10px 0;
 }
 
-/* line 52, ../sass/main.sass */
+/* line 53, ../sass/main.sass */
 dl {
   font-size: 14px;
 }
-/* line 54, ../sass/main.sass */
+/* line 55, ../sass/main.sass */
 dl dt {
   vertical-align: top;
   display: inline-block;
@@ -78,7 +78,7 @@ dl dt {
   font-weight: 700;
   margin: 0 0 8px;
 }
-/* line 60, ../sass/main.sass */
+/* line 61, ../sass/main.sass */
 dl dd {
   vertical-align: top;
   display: inline-block;
@@ -86,7 +86,7 @@ dl dd {
   margin: 0 0 8px;
 }
 
-/* line 82, ../sass/main.sass */
+/* line 83, ../sass/main.sass */
 .btn {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cceeff), color-stop(70%, #0092cf), color-stop(100%, #0092cf));
   background-image: -webkit-linear-gradient(#cceeff, #0092cf 70%, #0092cf);
@@ -105,7 +105,7 @@ dl dd {
   margin: 0px 3px;
   text-decoration: none;
 }
-/* line 77, ../sass/main.sass */
+/* line 78, ../sass/main.sass */
 .btn:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cceeff), color-stop(70%, #006e9c), color-stop(100%, #006e9c));
   background-image: -webkit-linear-gradient(#cceeff, #006e9c 70%, #006e9c);
@@ -116,14 +116,14 @@ dl dd {
   background-color: #006e9c;
 }
 
-/* line 85, ../sass/main.sass */
+/* line 86, ../sass/main.sass */
 nav {
   margin: 25px 0;
   padding: 10px 0;
   background-color: #f5f5f5;
   text-align: center;
 }
-/* line 90, ../sass/main.sass */
+/* line 91, ../sass/main.sass */
 nav a {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cceeff), color-stop(70%, #0092cf), color-stop(100%, #0092cf));
   background-image: -webkit-linear-gradient(#cceeff, #0092cf 70%, #0092cf);
@@ -142,7 +142,7 @@ nav a {
   margin: 0px 3px;
   text-decoration: none;
 }
-/* line 77, ../sass/main.sass */
+/* line 78, ../sass/main.sass */
 nav a:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cceeff), color-stop(70%, #006e9c), color-stop(100%, #006e9c));
   background-image: -webkit-linear-gradient(#cceeff, #006e9c 70%, #006e9c);
@@ -153,12 +153,12 @@ nav a:hover {
   background-color: #006e9c;
 }
 
-/* line 93, ../sass/main.sass */
+/* line 94, ../sass/main.sass */
 a.top {
   position: relative;
   padding-left: 25px;
 }
-/* line 96, ../sass/main.sass */
+/* line 97, ../sass/main.sass */
 a.top:before {
   content: "";
   position: absolute;
@@ -171,7 +171,7 @@ a.top:before {
   border-bottom: 5px solid white;
 }
 
-/* line 107, ../sass/main.sass */
+/* line 108, ../sass/main.sass */
 img {
   padding: 4px;
   margin: 4px;
@@ -179,19 +179,19 @@ img {
   background-color: #eeeeee;
 }
 
-/* line 114, ../sass/main.sass */
+/* line 115, ../sass/main.sass */
 #site-header {
   margin: 0;
   height: 252px;
   overflow: hidden;
   position: relative;
 }
-/* line 120, ../sass/main.sass */
+/* line 121, ../sass/main.sass */
 #site-header h1 {
   margin: 55px 45px;
 }
-/* line 123, ../sass/main.sass */
-#site-header img {
+/* line 124, ../sass/main.sass */
+#site-header img.logo {
   position: absolute;
   right: 20px;
   top: 10px;
@@ -199,7 +199,7 @@ img {
   z-index: 2;
   border-radius: 0;
 }
-/* line 131, ../sass/main.sass */
+/* line 132, ../sass/main.sass */
 #site-header nav {
   position: absolute;
   bottom: 11px;
@@ -207,14 +207,55 @@ img {
   padding-left: 15px;
   text-align: left;
 }
+/* line 139, ../sass/main.sass */
+#site-header nav .current {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f7abb8), color-stop(70%, #c41230), color-stop(100%, #c41230));
+  background-image: -webkit-linear-gradient(#f7abb8, #c41230 70%, #c41230);
+  background-image: -moz-linear-gradient(#f7abb8, #c41230 70%, #c41230);
+  background-image: -o-linear-gradient(#f7abb8, #c41230 70%, #c41230);
+  background-image: -ms-linear-gradient(#f7abb8, #c41230 70%, #c41230);
+  background-image: linear-gradient(#f7abb8, #c41230 70%, #c41230);
+  -webkit-box-shadow: #c41230 0 0 5px inset, #ccccff 0 0 2px;
+  -moz-box-shadow: #c41230 0 0 5px inset, #ccccff 0 0 2px;
+  box-shadow: #c41230 0 0 5px inset, #ccccff 0 0 2px;
+  background-color: #c41230;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 3px 10px;
+  margin: 0px 3px;
+  text-decoration: none;
+  margin-left: 320px;
+}
+/* line 78, ../sass/main.sass */
+#site-header nav .current:hover {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f7abb8), color-stop(70%, #950e25), color-stop(100%, #950e25));
+  background-image: -webkit-linear-gradient(#f7abb8, #950e25 70%, #950e25);
+  background-image: -moz-linear-gradient(#f7abb8, #950e25 70%, #950e25);
+  background-image: -o-linear-gradient(#f7abb8, #950e25 70%, #950e25);
+  background-image: -ms-linear-gradient(#f7abb8, #950e25 70%, #950e25);
+  background-image: linear-gradient(#f7abb8, #950e25 70%, #950e25);
+  background-color: #950e25;
+}
+/* line 143, ../sass/main.sass */
+#site-header .twitter {
+  font-size: 10px;
+  position: absolute;
+  top: 115px;
+  right: 280px;
+}
+/* line 148, ../sass/main.sass */
+#site-header .twitter img {
+  width: 40px;
+}
 
-/* line 140, ../sass/main.sass */
+/* line 153, ../sass/main.sass */
 .leg img {
   float: right;
   width: 400px;
 }
 
-/* line 145, ../sass/main.sass */
+/* line 158, ../sass/main.sass */
 table.results {
   width: 100%;
   text-align: center;
@@ -222,7 +263,7 @@ table.results {
   border-bottom: 1px solid #cccccc;
   padding-bottom: 2px;
 }
-/* line 152, ../sass/main.sass */
+/* line 165, ../sass/main.sass */
 table.results caption {
   color: #c41230;
   font-weight: 800;
@@ -231,29 +272,29 @@ table.results caption {
   margin: 5px 0;
   padding-bottom: 2px;
 }
-/* line 160, ../sass/main.sass */
+/* line 173, ../sass/main.sass */
 table.results tr:nth-child(even) {
   background-color: #f5f5f5;
 }
-/* line 163, ../sass/main.sass */
+/* line 176, ../sass/main.sass */
 table.results tr:last-child td {
   padding-bottom: 4px;
 }
 
-/* line 166, ../sass/main.sass */
+/* line 179, ../sass/main.sass */
 p.full-results {
   float: right;
 }
 
-/* line 171, ../sass/main.sass */
+/* line 184, ../sass/main.sass */
 .structure.archers {
   padding-right: 0;
 }
-/* line 174, ../sass/main.sass */
+/* line 187, ../sass/main.sass */
 .structure.archers section {
   margin-bottom: 25px;
 }
-/* line 177, ../sass/main.sass */
+/* line 190, ../sass/main.sass */
 .structure.archers .archer {
   display: inline-block;
   vertical-align: top;
@@ -262,86 +303,86 @@ p.full-results {
   margin-right: 4px;
   border-right: 1px solid #cccccc;
 }
-/* line 184, ../sass/main.sass */
+/* line 197, ../sass/main.sass */
 .structure.archers .archer:nth-of-type(4) {
   border-right: 0;
 }
-/* line 187, ../sass/main.sass */
+/* line 200, ../sass/main.sass */
 .structure.archers .archer img {
   width: 224px;
   margin: 0;
 }
 
-/* line 192, ../sass/main.sass */
+/* line 205, ../sass/main.sass */
 .results {
   text-align: center;
 }
-/* line 194, ../sass/main.sass */
+/* line 207, ../sass/main.sass */
 .results article {
   margin-bottom: 30px;
 }
-/* line 196, ../sass/main.sass */
+/* line 209, ../sass/main.sass */
 .results .archer {
   display: inline-block;
   vertical-align: middle;
   width: 300px;
 }
-/* line 200, ../sass/main.sass */
+/* line 213, ../sass/main.sass */
 .results .archer img {
   width: 240px;
 }
-/* line 202, ../sass/main.sass */
+/* line 215, ../sass/main.sass */
 .results .scores {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 205, ../sass/main.sass */
+/* line 218, ../sass/main.sass */
 .results .scores table {
   border-collapse: collapse;
 }
-/* line 207, ../sass/main.sass */
+/* line 220, ../sass/main.sass */
 .results .scores td, .results .scores th {
   width: 20px;
   height: 22px;
   padding: 2px;
   border: 1px solid #cccccc;
 }
-/* line 212, ../sass/main.sass */
+/* line 225, ../sass/main.sass */
 .results .scores td.empty, .results .scores th.empty {
   border: none;
   width: 15px;
 }
-/* line 215, ../sass/main.sass */
+/* line 228, ../sass/main.sass */
 .results .scores th {
   background: #eeeeee;
   font-weight: 600;
 }
-/* line 219, ../sass/main.sass */
+/* line 232, ../sass/main.sass */
 .results .scores .totals td {
   border: none;
 }
-/* line 221, ../sass/main.sass */
+/* line 234, ../sass/main.sass */
 .results .scores .totals th {
   font-weight: bold;
   font-size: 17px;
 }
 
-/* line 226, ../sass/main.sass */
+/* line 239, ../sass/main.sass */
 .sponsors {
   text-align: center;
 }
 
-/* line 228, ../sass/main.sass */
+/* line 241, ../sass/main.sass */
 .sponsor {
   max-width: 150px;
   max-height: 100px;
 }
 
-/* line 233, ../sass/main.sass */
+/* line 246, ../sass/main.sass */
 footer {
   padding-bottom: 10px;
 }
-/* line 236, ../sass/main.sass */
+/* line 249, ../sass/main.sass */
 footer .credits {
   text-align: center;
   font-size: 12px;

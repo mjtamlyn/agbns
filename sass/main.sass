@@ -4,6 +4,7 @@
 $blue: #0092CF
 $hlblue: #CCEEFF
 $red: #C41230
+$hlred: lighten($red, 40%)
 
 // Structure
 body
@@ -64,10 +65,10 @@ dl
     margin: 0 0 8px
 
 // nav
-@mixin btn
-  @include background-image(linear-gradient($hlblue, $blue 70%, $blue))
-  @include box-shadow($blue 0 0 5px inset, #ccf 0 0 2px)
-  background-color: $blue
+@mixin btn($color: $blue, $hlcolor: $hlblue)
+  @include background-image(linear-gradient($hlcolor, $color 70%, $color))
+  @include box-shadow($color 0 0 5px inset, #ccf 0 0 2px)
+  background-color: $color
   color: white
   cursor: pointer
   border-radius: 5px
@@ -75,9 +76,9 @@ dl
   margin: 0px 3px
   text-decoration: none
   &:hover
-    $darkerblue: darken($blue, 10%)
-    @include background-image(linear-gradient($hlblue, $darkerblue 70%, $darkerblue))
-    background-color: $darkerblue
+    $darkercolor: darken($color, 10%)
+    @include background-image(linear-gradient($hlcolor, $darkercolor 70%, $darkercolor))
+    background-color: $darkercolor
 
 .btn
   @include btn
@@ -120,7 +121,7 @@ img
   h1
     margin: 55px 45px
 
-  img
+  img.logo
     position: absolute
     right: 20px
     top: 10px
@@ -134,6 +135,18 @@ img
     width: 100%
     padding-left: 15px
     text-align: left
+
+    .current
+      @include btn($red, $hlred)
+      margin-left: 320px
+
+  .twitter
+    font-size: 10px
+    position: absolute
+    top: 115px
+    right: 280px
+    img
+      width: 40px
 
 // Main block
 .leg
