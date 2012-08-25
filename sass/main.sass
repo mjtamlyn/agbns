@@ -174,21 +174,55 @@ p.full-results
   section
     margin-bottom: 25px
 
-.archer
-  display: inline-block
-  vertical-align: top
-  width: 244px
-  padding-right: 4px
-  margin-right: 4px
-  border-right: 1px solid #ccc
-  &:nth-of-type(4)
-    border-right: 0
+  .archer
+    display: inline-block
+    vertical-align: top
+    width: 244px
+    padding-right: 4px
+    margin-right: 4px
+    border-right: 1px solid #ccc
+    &:nth-of-type(4)
+      border-right: 0
 
-  img
-    width: 224px
-    margin: 0
+    img
+      width: 224px
+      margin: 0
+
+// results
+.results
+  text-align: center
+  .archer
+    display: inline-block
+    vertical-align: middle
+    width: 300px
+    img
+      width: 240px
+  .scores
+    display: inline-block
+    vertical-align: middle
+    table
+      border-collapse: collapse
+    td, th
+      width: 20px
+      height: 22px
+      padding: 2px
+      border: 1px solid #ccc
+      &.empty
+        border: none
+        width: 15px
+    th
+      background: #eee
+      font-weight: 600
+    .totals
+      td
+        border: none
+      th
+        font-weight: bold
+        font-size: 17px
 
 // sponsors
+.sponsors
+  text-align: center
 .sponsor
   max-width: 150px
   max-height: 100px
