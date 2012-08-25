@@ -277,67 +277,71 @@ p.full-results {
   text-align: center;
 }
 /* line 194, ../sass/main.sass */
+.results article {
+  margin-bottom: 30px;
+}
+/* line 196, ../sass/main.sass */
 .results .archer {
   display: inline-block;
   vertical-align: middle;
   width: 300px;
 }
-/* line 198, ../sass/main.sass */
+/* line 200, ../sass/main.sass */
 .results .archer img {
   width: 240px;
 }
-/* line 200, ../sass/main.sass */
+/* line 202, ../sass/main.sass */
 .results .scores {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 203, ../sass/main.sass */
+/* line 205, ../sass/main.sass */
 .results .scores table {
   border-collapse: collapse;
 }
-/* line 205, ../sass/main.sass */
+/* line 207, ../sass/main.sass */
 .results .scores td, .results .scores th {
   width: 20px;
   height: 22px;
   padding: 2px;
   border: 1px solid #cccccc;
 }
-/* line 210, ../sass/main.sass */
+/* line 212, ../sass/main.sass */
 .results .scores td.empty, .results .scores th.empty {
   border: none;
   width: 15px;
 }
-/* line 213, ../sass/main.sass */
+/* line 215, ../sass/main.sass */
 .results .scores th {
   background: #eeeeee;
   font-weight: 600;
 }
-/* line 217, ../sass/main.sass */
+/* line 219, ../sass/main.sass */
 .results .scores .totals td {
   border: none;
 }
-/* line 219, ../sass/main.sass */
+/* line 221, ../sass/main.sass */
 .results .scores .totals th {
   font-weight: bold;
   font-size: 17px;
 }
 
-/* line 224, ../sass/main.sass */
+/* line 226, ../sass/main.sass */
 .sponsors {
   text-align: center;
 }
 
-/* line 226, ../sass/main.sass */
+/* line 228, ../sass/main.sass */
 .sponsor {
   max-width: 150px;
   max-height: 100px;
 }
 
-/* line 231, ../sass/main.sass */
+/* line 233, ../sass/main.sass */
 footer {
   padding-bottom: 10px;
 }
-/* line 234, ../sass/main.sass */
+/* line 236, ../sass/main.sass */
 footer .credits {
   text-align: center;
   font-size: 12px;
